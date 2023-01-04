@@ -1,0 +1,113 @@
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    flex:1 1 0;
+}
+.calculator{
+    margin-top:100px;
+    border:3px solid black;
+    width:500px;
+    height:690px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(109, 108, 108);
+    border-radius: 15px;
+}
+
+.displays{
+    padding-top:50px;
+    padding-right:15px;
+    padding-bottom:10px;
+    
+    text-align: end;
+    margin-left: 34px;
+    margin-right:34px;
+    margin-top:30px;
+    margin-bottom:10px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    gap:10px;
+    border:1px solid black;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.display{
+    margin-top:5px;
+    height:50px;
+}
+.displayer{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:5px;
+    height:15px;
+    font-size:20px;
+  
+}
+
+.clearing{
+    display:flex;
+    height:100px;
+    
+    
+    
+    
+}
+
+.clearDelete{
+   
+    font-size: 30px;
+    flex:1;
+    
+}
+.erase{
+    margin-right:34px;
+    margin-top:20px;
+    margin-bottom: 15px;
+    margin-left:5px;
+    background-color: rgb(137, 137, 235);
+}
+.erase:hover{
+    background-color: rgba(137, 137, 235, 0.678);
+}
+
+
+.clear{
+    margin-right:5px;
+    margin-top:20px;
+    margin-bottom: 15px;
+    margin-left:34px;
+    background-color: rgb(231, 114, 114);
+}
+
+.clear:hover{
+    background-color: rgba(231, 114, 114, 0.685);
+}
+
+
+.digits{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+   
+    margin-top:20px;
+    
+}
+.digit{
+    flex-wrap:wrap;
+    width:100px;
+    height:80px;
+   margin:5px;
+font-size: 25px;}
+.digit:hover{
+    background-color: rgb(73, 73, 73);
+}
+button{
+    cursor:pointer;
+}
